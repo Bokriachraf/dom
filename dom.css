@@ -1,0 +1,179 @@
+i {
+  font-size: 55px;
+  cursor: pointer;
+}
+
+.fa-trash-alt {
+  color: rgb(100, 237, 168);
+}
+.shop-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15% 10;
+}
+.list-products {
+  display: flex;
+}
+.card {
+  margin: 5px;
+}
+audio {
+  width: 285px;
+  height: 50px;
+}
+.section-dark {
+  position: relative;
+  background-color: #0b1011;
+}
+.page-header {
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 999px;
+  overflow: hidden;
+
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  color: #66615b;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+  line-height: 1.5;
+
+  text-align: left;
+}
+.filter {
+  transition: all 150ms linear;
+}
+.page-header .filter::after {
+  background-color: rgba(0, 0, 0, 0.5);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.page-header .content-center {
+  margin-top: 85px;
+}
+.content-center {
+  z-index: 1;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.title-brand {
+  max-width: 730px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  display: block;
+}
+.presentation-title {
+  font-size: 8em;
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
+  /* background: linear-gradient(to bottom, #ffffff 35%, #4e6773 100%); */
+  /* -webkit-text-fill-color: transparent; */
+}
+h1 {
+  line-height: 1.2;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.fog-low {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-left: -35%;
+  margin-bottom: -50px;
+  width: 110%;
+  opacity: 0.85;
+}
+div {
+  display: block;
+}
+.fog-low img {
+  width: 100%;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.fog-low.right {
+  margin-left: 30%;
+  opacity: 1;
+}
+.presentation-subtitle {
+  font-size: 1.7em;
+  color: #ffffff;
+}
+.text-center {
+  text-align: center !important;
+}
+h2 {
+  display: block;
+
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+
+  margin: 30px 0 0;
+  font-weight: 300;
+  line-height: 1.2;
+
+/* .moving-clouds {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 250.625em;
+  height: 43.75em;
+
+  animation: 80s linear infinite;
+  animation-duration: 80s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: cloudLoop;
+} */
+.moving-clouds {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 250.625em;
+  height: 43.75em;
+  /* -webkit-animation: cloudLoop 80s linear infinite; */
+  animation: cloudLoop 80s linear infinite;
+  animation-duration: 80s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: cloudLoop;
+}
